@@ -8,17 +8,13 @@ Simple SPT-AKI crack method.
 
 ```
 <gamedir>/
-├─ EscapeFromTarkov_Data/
 ├─ GenuineClient/
 │  ├─ BattlEye/
 │  │  ├─ BEClient_x64.dll
 │  ├─ ConsistencyInfo
 │  ├─ Uninstall.exe
 │  ├─ UnityCrashHandler64.exe
-├─ MonoBleedingEdge/
-├─ NLog/
 ├─ EscapeFromTarkov.exe
-├─ UnityPlayer.dll
 ```
 
 2. In registry, set `Computer\HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\EscapeFromTarkov\UninstallString` to `<gamedir>\GenuineClient\Uninstall.exe`.
